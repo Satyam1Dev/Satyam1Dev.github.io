@@ -1456,7 +1456,7 @@ cursor:pointer;
 
 .projectFactsWrap .item{
   width: 25%;
-  height: 100%;
+  height: auto;
   padding: 50px 0px;
   text-align: center;
 }
