@@ -92,6 +92,10 @@ body {
   color: var(--text-color);
   transition: .4s; /* for light mode animation */
 }
+h5 {
+  color:var(--first-color);
+  font-size: 15px;
+}
 
 h1, h2, h3 {
   color: var(--title-color);
@@ -114,6 +118,7 @@ button {
 
 img {
   max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -195,7 +200,7 @@ body.light-theme{
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
-  max-width: 968px;
+  max-width: 1068px;
   margin-left: 1rem;
   margin-right: 1rem;
 }
@@ -492,10 +497,11 @@ transform: rotate(-90deg);
  align-content: flex-start;
  row-gap:1rem;
 }
-.skills__data{
-  display:flex;
+.skills__data {
+  display: flex;
   column-gap: .5rem;
-} 
+  align-items: baseline;
+}
 .skills__data div{
   display: flex;
   align-items: center;
@@ -747,6 +753,7 @@ cursor:pointer;
   margin-bottom:1.5rem;
 }
 .contact__info{
+  width: 100%;
   display:grid;
  gap:1rem;
 }
@@ -1007,7 +1014,7 @@ cursor:pointer;
     margin: 0 auto;
 }
 .about__info {
-  grid-template-columns: repeat(3,140px);
+  grid-template-columns: repeat(3,185px);
   justify-content: center;
 }
 .about__description{
@@ -1168,7 +1175,7 @@ cursor:pointer;
   .about__img{
    min-width:350px;
     height:auto;
-    margin-left:20px;
+    margin-left:-100px;
   }
   .about__box{
     text-align: center;
@@ -1177,7 +1184,7 @@ cursor:pointer;
   }
   .about__description{
      padding: 0;
-     text-align: center;
+     text-align: start;;
      font-size: 1.25rem;
     margin-bottom: 2.5rem;
   }
@@ -1615,9 +1622,22 @@ footer p strong {
     footer p{
           font-size: 14px;
     }
+    .git_calender{
+      margin: auto;
+      width: 70%;
+      
+    }
+    form#my-form {
+      width: 350px !important;
+  }
 }
+
 .git_calender{
   margin: auto;
-  width: 50%;
+  width: 80%;
   
 }
+form#my-form {
+  width: 500px;
+}
+
