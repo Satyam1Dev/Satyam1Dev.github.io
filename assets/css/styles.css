@@ -78,7 +78,18 @@
 html {
   scroll-behavior: smooth;
 }
-
+#menu1{
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+#nva{
+  text-decoration: none;
+  color: white;
+}
 body,
 button,
 input,
@@ -753,7 +764,7 @@ cursor:pointer;
   margin-bottom:1.5rem;
 }
 .contact__info{
-  width: 100%;
+  width: 95%;
   display:grid;
  gap:1rem;
 }
@@ -807,7 +818,7 @@ cursor:pointer;
   position:absolute;
   top:0;
   left:0;
-  width:100%;
+  width:95%;
   height:100%;
   border: 2px solid var(--text-color-light);
   border-radius: .75rem;
@@ -1095,7 +1106,7 @@ cursor:pointer;
   
   
   .section{
-    padding: 6.5rem 0 1rem;
+    padding: 3.5rem 0 1rem;
   }
   .section__title{
     font-size: 2.5rem;
@@ -1469,7 +1480,7 @@ cursor:pointer;
 }
 
 .projectFactsWrap .item:nth-child(1){
-  background: rgb(16, 31, 46);
+  background: rgb(0 128 255);
 }
 
 .projectFactsWrap .item:nth-child(2){
@@ -1477,11 +1488,11 @@ cursor:pointer;
 }
 
 .projectFactsWrap .item:nth-child(3){
-  background: rgb(21, 38, 56);
+  background: rgb(0 128 255);
 }
 
 .projectFactsWrap .item:nth-child(4){
-  background: rgb(23, 44, 66);
+  background: rgb(18, 34, 51);
 }
 
 .projectFactsWrap .item p.number{
@@ -1629,6 +1640,17 @@ footer p strong {
     }
     form#my-form {
       width: 350px !important;
+  }
+  .projectFactsWrap .item:nth-child(4){
+    background: rgb(0 128 255);
+  }
+  
+  .projectFactsWrap .item:nth-child(3){
+  
+    background: rgb(18, 34, 51);
+  }
+  #menu1{
+    display: none;
   }
 }
 
