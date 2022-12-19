@@ -1299,6 +1299,10 @@ cursor:pointer;
     font-size: 30px;
     color: white;
 }
+.git_streak {
+  width: 700px;
+  margin: auto;
+}
   /* .contact__content{
     width: 800px;
     
@@ -1631,7 +1635,10 @@ footer p strong {
     .authorWindow{
          width: 210px;
     }
-
+    .git_streak {
+      width: 300px;
+      margin: auto;
+  }
     .authorWindowWrapper{
              bottom: -170px;
   margin-bottom: 20px;
