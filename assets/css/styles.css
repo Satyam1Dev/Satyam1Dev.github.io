@@ -78,17 +78,20 @@
 html {
   scroll-behavior: smooth;
 }
+a.DownloadResume {
+  color: var(--title-color);
+}
 #menu1{
   list-style: none;
   display: flex;
-  gap: 50px;
+  gap: 35px;
   justify-content: space-between;
   align-items: center;
   font-size: 20px;
 }
 #nva{
   text-decoration: none;
-  color: white;
+  color: var(--title-color);
 }
 body,
 button,
@@ -1119,11 +1122,11 @@ cursor:pointer;
   .nav{
     width: 1000px;
     height: 1%;
-    margin: 15px auto;
+    margin: 15px 0px 0px 300px; 
   }
   .nav__logo{
     font-size:1.75rem;
-    margin-left:20px;
+    margin-left:-100px;
   }
   .nav__menu{
     width: 25%;
@@ -1292,6 +1295,10 @@ cursor:pointer;
   .contact__container{
     column-gap: 6rem;
   }
+  i.bx.bxs-mobile.bx-flip-horizontal {
+    font-size: 30px;
+    color: white;
+}
   /* .contact__content{
     width: 800px;
     
