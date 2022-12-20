@@ -10,6 +10,7 @@ async function handleSubmit(event) {
     headers: {
         'Accept': 'application/json'
     }
+    
   }).then(response =>
      {
     if (response.ok) {
