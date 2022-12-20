@@ -1087,6 +1087,7 @@ cursor:pointer;
     justify-content: center;
     column-gap: 3rem;
   }
+  
  
 }
 /* For large devices */
@@ -1122,11 +1123,11 @@ cursor:pointer;
   .nav{
     width: 1000px;
     height: 1%;
-    margin: 15px 0px 0px 300px; 
+    margin-top: 15px;
   }
   .nav__logo{
     font-size:1.75rem;
-    margin-left:-100px;
+    margin-left:15px;
   }
   .nav__menu{
     width: 25%;
@@ -1258,14 +1259,7 @@ cursor:pointer;
     column-gap: 3rem;
     font-size: 1.25rem;
   }
-  /* .work__card{
-    width:400px;
-    
-  } */
-  /* .work__img{
-    margin-bottom: 1rem;
-    width:400px;
-  } */
+
   .work__title{
     font-size: 1.2rem;
     margin-bottom: .5rem;
@@ -1303,47 +1297,7 @@ cursor:pointer;
   width: 700px;
   margin: auto;
 }
-  /* .contact__content{
-    width: 800px;
-    
-  }
-  .contact__title{
-    font-size: 2rem;
-   
-  }
-  .contact__form{
-    width: 70%;
-    margin-top: 1rem;
-  }
-  .contact__card{
-    width: 400px;
-    padding: 1rem;
-  
-  }
-  .title__contact{
-    text-align: center;
-    margin-left: 90px;
-  }
-  .contact__card-icon{
-    font-size: 3rem;
-  }
-  .contact__card-title{
-    font-size: 1.25rem;
-  }
-  .contact__card-data,
-  .contact__button{
-    font-size: 1rem;
-  }
-  .contact__form-tag{
-    font-size: 1.25rem;
-  }
-  .contact__form-input{
-    font-size: 1rem;
-  }
-  .form__button{
-    font-size: 1.25rem;
-    
-  }                    */
+                 
   .footer__social-link{
     font-size:2rem;
     padding:.4rem;
@@ -1592,14 +1546,13 @@ footer p strong {
   width: 120px;
   height: 120px;
   left: 10px;
-  /* bottom: 30px; */
+  
   position: relative;
   border-radius: 100px;
 }
 
 
-.about-me-img img {
-}
+
 
 
 .authorWindow{
@@ -1630,7 +1583,11 @@ footer p strong {
   -moz-transition: all 500ms ease;
   transition: all 500ms ease;
 }
-
+@media screen and (min-width: 481px) and (max-width: 868px) { 
+  .Github-Stats {   
+    flex-direction: column;
+}
+}
 @media screen and (max-width: 768px) {
     .authorWindow{
          width: 210px;
@@ -1666,12 +1623,29 @@ footer p strong {
   #menu1{
     display: none;
   }
+  .Github-Stats {   
+    flex-direction: column;
 }
+}
+
+
+
 
 .git_calender{
   margin: auto;
   width: 80%;
   
+}
+.Github-Stats {
+  gap: 20px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.git-hub {
+  text-align: center;
+  margin: 20px;
 }
 form#my-form {
   width: 500px;
