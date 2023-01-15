@@ -63,12 +63,20 @@ display: none;
     margin: auto;
     width: 30%;
 }
-.git-head{
+.git-head{   
+    font-size: 2.5rem;
+    margin-bottom: 3.5rem;
+    color:hsl(207deg 90% 72%);
     text-align: center;
-    padding: 20px;
 }
 
 .bxs-mobile:before {
     content: "\ee4c";
     font-size: 2rem;
+    color: var(--title-color);  
+
+}
+
+img.gitimg {
+    width: 100%;
 }
