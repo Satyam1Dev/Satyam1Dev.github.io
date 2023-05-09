@@ -20,19 +20,13 @@ $.fn.jQuerySimpleCounter = function( options ) {
     });
 };
 
-
 $('#number1').jQuerySimpleCounter({end: 1200,duration: 2000});
 $('#number2').jQuerySimpleCounter({end: 100,duration: 2000});
 $('#number3').jQuerySimpleCounter({end: 6,duration: 2000});
 $('#number4').jQuerySimpleCounter({end: 100,duration: 2000});
 
-
-
-  /* AUTHOR LINK */
- $('.about-me-img').hover(function(){
+$('.about-me-img').hover(function(){
         $('.authorWindowWrapper').stop().fadeIn('fast').find('p').addClass('trans');
     }, function(){
         $('.authorWindowWrapper').stop().fadeOut('fast').find('p').removeClass('trans');
     });
-
-    
